@@ -1,0 +1,20 @@
+# Flywheel tooling state, local to each operator's machine
+.ntm/
+.bv/
+.flywheel/*
+!.flywheel/profile.yaml
+.doctor/
+.agents/
+.ft/
+/ft.toml
+/.dcg.toml
+.claude/settings.local.json
+.codex/*
+!.codex/hooks.json
+
+# Test output
+/test/out/
+/tmp/
+
+# Operating system
+.DS_Store
